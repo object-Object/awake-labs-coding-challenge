@@ -1,0 +1,15 @@
+.pressed {
+  border-style: inset;
+}
+
+.id-column {
+  min-width: 35px;
+}
+
+.content-column {
+  min-width: 170px;
+}
+
+.button-column {
+  min-width: 52px;
+}
