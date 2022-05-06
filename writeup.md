@@ -5,7 +5,7 @@
 TL;DR: pick languages -> install deps and libraries -> create backend -> create frontend -> write comments -> write docs
 
 * First, I had to choose my languages. Before this project, I'd never used Node or Flask, so I chose Flask because I'm much more familiar with Python. I also took this opportunity to learn how to use SQLAlchemy. Similarly, I hadn't done much frontend development at all, so I picked React, both because your team uses it and because I've been wanting to try it out for a while. I chose not to use TypeScript because I didn't want to simultaneously be learning React and Typescript. I did have some JS experience before this to draw on.
-* Next, I spent some time figuring out the file structure for each part of the project and getting the Docker script to run. I also installed all the dependencies and got "Hello World"s running for each part.
+* Next, I spent some time figuring out the file structure for each part of the project and getting the Docker script to run. I also installed all the dependencies and got "Hello World"s running for each part. I used [Create React App](https://github.com/facebook/create-react-app) as a starting point for the frontend.
 * After the environment was set up, I started with the backend, adding routes for each CRUD operation. This ended up being pretty trivial. I tested it using Postman, since I didn't have a frontend yet.
 * Once the backend was fully working, I created the frontend. This is what took most of my time.
   * My idea was to make a table displaying each row of the data, with buttons to edit and delete each row, and another button to add a new row.
